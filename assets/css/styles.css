@@ -6936,3 +6936,33 @@ p, .lead, li {
   }
 
 }
+
+@media (max-width:768px){
+
+  .section-quienes-somos{
+    min-height:0 !important;
+    height:auto !important;
+    padding:64px 0 56px !important;
+  }
+
+  .quienes-map-parallax{
+    display:none !important;
+  }
+
+  .quienes-layout{
+    min-height:0 !important;
+    height:auto !important;
+    display:block !important;
+  }
+
+  .quienes-content{
+    min-height:0 !important;
+    height:auto !important;
+  }
+
+  .quienes-stats-row{
+    margin-top:28px !important;
+    padding-bottom:0 !important;
+  }
+
+}
