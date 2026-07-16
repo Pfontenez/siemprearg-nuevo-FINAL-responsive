@@ -6939,30 +6939,40 @@ p, .lead, li {
 
 @media (max-width:768px){
 
-  .section-quienes-somos{
-    min-height:0 !important;
+  section.section-quienes-somos{
+    min-height:unset !important;
     height:auto !important;
-    padding:64px 0 56px !important;
+    padding-top:36px !important;
+    padding-bottom:36px !important;
   }
 
-  .quienes-map-parallax{
-    display:none !important;
-  }
-
-  .quienes-layout{
-    min-height:0 !important;
-    height:auto !important;
-    display:block !important;
-  }
-
-  .quienes-content{
-    min-height:0 !important;
+  section.section-quienes-somos .container{
+    min-height:unset !important;
     height:auto !important;
   }
 
-  .quienes-stats-row{
-    margin-top:28px !important;
+  section.section-quienes-somos .quienes-layout{
+    min-height:unset !important;
+    height:auto !important;
+    padding-top:0 !important;
     padding-bottom:0 !important;
+  }
+
+  section.section-quienes-somos .quienes-content{
+    min-height:unset !important;
+    height:auto !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+  }
+
+  section.section-quienes-somos .quienes-stats-row{
+    margin-top:24px !important;
+    margin-bottom:0 !important;
+    padding:0 !important;
+  }
+
+  section.section-quienes-somos .quienes-map-parallax{
+    display:none !important;
   }
 
 }
