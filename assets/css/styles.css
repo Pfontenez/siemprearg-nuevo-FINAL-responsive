@@ -6971,3 +6971,16 @@ p, .lead, li {
   }
 
 }
+
+@media (max-width:768px){
+
+  .hero{
+    background-position: right center !important;
+  }
+
+  .page-hero{
+    background-size: auto 100% !important;
+    background-position: right center !important;
+}
+
+}
