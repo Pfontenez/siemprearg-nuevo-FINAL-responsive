@@ -6908,6 +6908,8 @@ p, .lead, li {
         border-color:var(--c-secondary);
     }
 
+    
+
 }
 
 @media (max-width:768px){
@@ -6990,6 +6992,16 @@ p, .lead, li {
   .prevenite-logo-badge,
   .inmediato-logo-badge{
     display:none !important;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .page-hero{
+    background-image:url("../img/banners/banner-4-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
   }
 
 }
