@@ -6984,3 +6984,12 @@ p, .lead, li {
 }
 
 }
+
+@media (max-width:768px){
+
+  .prevenite-logo-badge,
+  .inmediato-logo-badge{
+    display:none !important;
+  }
+
+}
