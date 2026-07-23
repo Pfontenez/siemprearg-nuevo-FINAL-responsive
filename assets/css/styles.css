@@ -7100,7 +7100,7 @@ p, .lead, li {
 
   .page-hero .page-hero-inner{
     position:relative;
-    top:90px;
+    top:55px;
   }
 
 }
@@ -7170,6 +7170,40 @@ p, .lead, li {
   .site-footer .footer-iso-desktop .footer-iso{
     max-width:60px !important;
     margin:0 !important;
+  }
+
+}
+
+
+@media (max-width:768px){
+
+  .page-hero.hero-faq{
+    background-image:url("../img/banners/banner-acompanantes-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .page-hero.hero-equipo{
+    background-image:url("../img/banners/banner-equipo-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .page-hero.hero-inmediato{
+    background-image:url("../img/banners/banner-inmediato-nuevo-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
   }
 
 }
