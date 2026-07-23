@@ -7207,3 +7207,63 @@ p, .lead, li {
   }
 
 }
+
+@media (max-width:768px){
+
+  .page-hero.hero-home{
+    background-image:url("../img/banners/home-hero-banner-2026-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+    min-height:720px !important;
+  }
+
+}
+
+@media (min-width:769px){
+
+  .page-hero.hero-home .hero-home-inner .hero-eyebrow{
+    transform:translateY(0) !important;
+    margin:0 auto 24px !important;
+    position:relative !important;
+    top:0 !important;
+  }
+
+}
+
+@media (min-width:769px){
+
+  .plan-prevenite-hero .page-hero-inner{
+    position:relative;
+    top:20px;
+  }
+
+}
+
+@media (min-width:769px){
+
+  .plan-inmediato-hero .page-hero-inner{
+    position:relative;
+    top:20px;
+  }
+
+}
+
+
+@media (min-width:769px){
+
+  .hero-sobre-nosotros .page-hero-inner{
+    position:relative;
+    top:85px !important;
+  }
+
+}
+
+@media (min-width:769px){
+
+  .hero-contacto .page-hero-inner{
+    position:relative;
+    top:90px;
+  }
+
+}
