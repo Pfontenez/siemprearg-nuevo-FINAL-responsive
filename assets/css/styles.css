@@ -7267,3 +7267,14 @@ p, .lead, li {
   }
 
 }
+
+@media (max-width:768px){
+
+  .hero-contacto{
+    background-image:url("../img/banners/familia-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+  }
+
+}
