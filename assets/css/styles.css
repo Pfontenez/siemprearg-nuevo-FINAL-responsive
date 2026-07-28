@@ -7320,9 +7320,10 @@ p, .lead, li {
     gap:16px !important;
   }
 
-  .nav-logo img{
-    width:155px !important;
-  }
+ .nav-logo .logo-white,
+.nav-logo .logo-blue{
+  width:155px !important;
+}
 
   .nav-links{
     gap:18px !important;
@@ -7340,4 +7341,46 @@ p, .lead, li {
     min-width:auto !important;
   }
 
+}
+
+/* El isotipo permanece oculto normalmente */
+.nav-logo .logo-isotipo{
+  display:none !important;
+}
+
+/* Solamente en el tramo intermedio */
+@media (min-width:981px) and (max-width:1150px){
+
+  .nav-logo .logo-white,
+  .nav-logo .logo-blue{
+    display:none !important;
+  }
+
+  .nav-logo .logo-isotipo{
+    display:block !important;
+    width:40px;
+    height:auto;
+  }
+
+}
+
+/* Cuando aparece la hamburguesa */
+@media (max-width:980px){
+
+  .nav-logo .logo-isotipo{
+    display:none !important;
+  }
+
+}
+
+.nav-logo{
+    display:inline-flex;
+    align-items:center;
+    width:155px;
+}
+
+.site-header .nav-links a::selection,
+.site-header .nav-links a strong::selection{
+  background: transparent;
+  color: inherit;
 }
