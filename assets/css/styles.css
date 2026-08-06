@@ -344,18 +344,13 @@ margin-inline: auto;
 
 .profile-info-col li::before{
   content:"›";
-
   position:absolute;
-
   left:0;
-  top:-2px;
+  top:-6px;
 
   font-size:2rem;
-
   line-height:1;
-
   color:#fff;
-
   opacity:.95;
 }
 
@@ -2857,13 +2852,29 @@ body { padding-top: 0; } /* page content sits below fixed header naturally via h
   font-size: .92rem;
   color: var(--c-text);
 }
+.card-bullet-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  padding-left: 0;
+  font-size: .92rem;
+  line-height: 1.2;
+  color: var(--c-text);
+}
+
 .card-bullet-list li::before {
   content: "";
-  position: absolute;
-  left: 0; top: .55em;
-  width: 8px; height: 8px;
+  position: static;
+
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+
+  margin-top: .32em;
   border-radius: 50%;
   background: var(--c-secondary);
+}
 }
 @media (max-width: 540px) { .card-bullet-list { grid-template-columns: 1fr; } }
 
