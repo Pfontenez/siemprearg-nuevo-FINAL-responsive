@@ -2875,7 +2875,7 @@ body { padding-top: 0; } /* page content sits below fixed header naturally via h
   border-radius: 50%;
   background: var(--c-secondary);
 }
-}
+
 @media (max-width: 540px) { .card-bullet-list { grid-template-columns: 1fr; } }
 
 /* Variante stats con tarjetas-feature en lugar de números */
