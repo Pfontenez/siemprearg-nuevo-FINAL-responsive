@@ -884,7 +884,7 @@ section.modalidades-section > .container > .section-header > span.eyebrow {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 132px;                /* subimos el bloque del hero para darle más aire */
+  bottom: 80px;                /* subimos el bloque del hero para darle más aire */
   z-index: 1;
 }
 .hero-home .container { width: 100%; }
