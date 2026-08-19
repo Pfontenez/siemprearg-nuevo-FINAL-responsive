@@ -7534,3 +7534,21 @@ p, .lead, li {
   height: 90px !important;
   max-width: 220px !important;
 }
+
+.privacy-text {
+  text-align: left !important;
+}
+
+.privacy-header {
+  max-width: none !important;
+  width: 100% !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.privacy-header .privacy-text {
+  max-width: none !important;
+  width: 100% !important;
+  text-align: left !important;
+}
