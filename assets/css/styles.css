@@ -7207,6 +7207,17 @@ p, .lead, li {
 
 @media (max-width:768px){
 
+  .page-hero.hero-privacidad{
+    background-image:url("../img/banners/banner-politicas-mobile.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+  }
+
+}
+
+@media (max-width:768px){
+
   .page-hero.hero-equipo{
     background-image:url("../img/banners/banner-equipo-mobile.png") !important;
     background-size:cover !important;
